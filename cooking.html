@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Cooking Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Input measurements below</h1>
+      <form id="teaspoonTablespoon">
+        <div class="form-group">
+          <label for="teaspoon">Teaspoons to Tablespoons</label>
+          <input id="teaspoon" class="form-control" type="text">
+        </div>
+      <button type="submit" class="btn">Convert!</button>
+      </form>
+
+      <form id="tablespoonCup">
+        <div class="form-group">
+          <label for="tablespoon">Tablespoons to Cups</label>
+          <input id="tablespoon" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Convert!</button>
+      </form>
+
+      <form id="cupPint">
+        <div class="form-group">
+          <label for="cup">Cups to Pints</label>
+          <input id="cup" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Convert!</button>
+      </form>
+
+      <div id="output"></div>
+
+    </div>
+<!-- javascript only below this point -->
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts-cookies.js"></script>
+  </body>
+</html>
